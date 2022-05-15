@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+.tit {
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2.5vw;
+    font-size: bold;
+    margin-top: 10vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+    border: 0.5vw solid white;
+    width: fit-content;
+}
+.text {
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 35px;
+    position: relative;
+    font-size: 1.5vw;
+    font-size: bold;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+    border: 0.3vw solid white;
+    width: 50%;
+    display: inline-block;
+    text-align: justify;
+}
+.text p {
+    margin: 1vh;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30vh;
+    gap: 5vw
+}
+
+/* First page styles */
+
+.header {
+    height: 100vh;
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.header h1 {
+    background: -webkit-linear-gradient(#eee, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header__pic {
+    width: 80vw;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Second page styles */
+
+.btc {
+    color: white;
+    height: 100vh;
+    background: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.btc__pic {
+    position: relative;
+    width: 25vw;
+}
+
+/* Third page styles */
+
+.eth {
+    color: white;
+    height: 100vh;
+    background: url('bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.eth__pic {
+    position: relative;
+    width: 20vw;
+}
+
+/* Fourth page styles */
+
+.ltc {
+    color: white;
+    height: 100vh;
+    background: url('bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.ltc__pic {
+    position: relative;
+    width: 25vw;
+}
